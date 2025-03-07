@@ -41,7 +41,7 @@ public class Automovel {
         return "Automovel{" +
                 "kms=" + kms +
                 ", matricula='" + matricula + '\'' +
-                ", nome='" + nome + '\'' +
+                ", nome=' " + nome + '\'' +
                 '}';
     }
 }

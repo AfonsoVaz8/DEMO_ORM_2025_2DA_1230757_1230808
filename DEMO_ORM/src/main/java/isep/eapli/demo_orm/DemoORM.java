@@ -7,7 +7,6 @@ package isep.eapli.demo_orm;
 
 
 /**
- *
  * @author mcn
  */
 public class DemoORM {

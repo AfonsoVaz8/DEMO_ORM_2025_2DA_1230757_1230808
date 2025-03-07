@@ -5,7 +5,9 @@ public class Automovel {
     private String matricula;
     private String nome;
 
-    public Automovel() {}
+    public Automovel() {
+    }
+
     public Automovel(int kms, String matricula, String nome) {
         this.kms = kms;
         this.matricula = matricula;

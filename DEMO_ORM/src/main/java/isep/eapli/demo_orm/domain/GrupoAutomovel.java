@@ -4,8 +4,11 @@ public class GrupoAutomovel {
     private int numeroPortas;
     private String nome;
     private String classe;
-    public GrupoAutomovel() {}
-    public GrupoAutomovel(int numeroPortas, String nome,String classe) {
+
+    public GrupoAutomovel() {
+    }
+
+    public GrupoAutomovel(int numeroPortas, String nome, String classe) {
         this.numeroPortas = numeroPortas;
         this.nome = nome;
         this.classe = classe;
@@ -30,6 +33,7 @@ public class GrupoAutomovel {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
     public String getClasse() {
         return classe;
     }

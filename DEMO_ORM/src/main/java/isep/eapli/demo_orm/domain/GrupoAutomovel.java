@@ -1,6 +1,14 @@
 package isep.eapli.demo_orm.domain;
 
+import jakarta.persistence.*;
+
+@Entity
 public class GrupoAutomovel {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+
+    private Long id;
     private int numeroPortas;
     private String nome;
     private String classe;

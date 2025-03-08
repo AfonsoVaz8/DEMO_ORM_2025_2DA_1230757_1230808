@@ -8,7 +8,7 @@
         <class>isep.eapli.demo_orm.domain.GrupoAutomovel</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:h2:./db/rentacar;AUTO_SERVER=TRUE"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:h2:./db/rentacar"/>
             <property name="jakarta.persistence.jdbc.user" value="admin"/>
             <property name="jakarta.persistence.jdbc.password" value="123"/>
             <property name="jakarta.persistence.schema-generation.database.action"

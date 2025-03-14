@@ -16,7 +16,7 @@ public class GrupoAutomovel {
     public GrupoAutomovel() {
     }
 
-    public GrupoAutomovel(int numeroPortas, String nome, String classe) {
+    public GrupoAutomovel(String nome, int numeroPortas, String classe) {
         this.numeroPortas = numeroPortas;
         this.nome = nome;
         this.classe = classe;
@@ -48,10 +48,7 @@ public class GrupoAutomovel {
 
     @Override
     public String toString() {
-        return "GrupoAutomovel{" +
-                "numeroPortas=" + numeroPortas +
-                ", nome='" + nome + '\'' +
-                ", classe='" + classe + '\'' +
-                '}';
+        return String.format("|%-5d | %-20s | %-10s | %-5d |", id, nome, classe, numeroPortas);
     }
+
 }
